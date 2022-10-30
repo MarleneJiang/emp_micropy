@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='emp-marlene',
-    version='0.0.1',
+    version='0.0.2',
     py_modules=['emp_wifi', 'emp_boot', 'emp_ide', 'emp_utils', 'emp_webrepl'],
     author='marlene',
     author_email='',
