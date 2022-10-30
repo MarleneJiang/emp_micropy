@@ -44,7 +44,7 @@ def set_boot_mode():
     print(
         print_as_a_list_item(
             2, 'Easy to develop',
-            'this mode is for developers.In this mode you can develop much easier via EMP-IDE(emp.1zlab.com)'
+            'this mode is for developers.In this mode you can develop much easier via EMP-IDE(emp.marlene.top)'
         ))
 
     mode = selection('Please input your choice [0-2]: ', 2)
@@ -63,7 +63,7 @@ def set_boot_mode():
             config_path()
             if not 'webrepl.pass' in os.listdir('config'):
                 with open('config/webrepl.pass', 'w') as c:
-                    c.write('1zlab')
+                    c.write('marlene')
             boot_code = BOOT_MODE_EASY_DEVELOP_CODE
             f.write(boot_code)
             print(rainbow('Boot mode set to EASY_DEVELOP', color='green'))
